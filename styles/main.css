@@ -70,7 +70,7 @@ body {
 }
 
 /* Tablet Layout: 2 columns */
-@media (min-width: 1050px) {
+@media (max-width: 1050px) {
   #grid {
     grid-template-columns: repeat(4, 56px);
   }
