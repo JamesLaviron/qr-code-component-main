@@ -1,0 +1,48 @@
+* {
+  border: 1px solid black;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  overflow: hidden;
+}
+
+#container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  padding: 16px;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+}
+
+/* #container > div {
+  width: 100%;
+} */
+
+#qr-code {
+  width: 288px;
+  height: 288px;
+}
+
+.content {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.title {
+  width: 100%;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.text {
+  width: 100%;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+}
