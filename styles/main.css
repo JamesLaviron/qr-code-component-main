@@ -34,6 +34,7 @@ body {
   align-content: center;
   text-align: center;
   flex-flow: column wrap;
+  column-gap: 16px;
   font-size: 15px;
   padding-top: 24px;
 }
