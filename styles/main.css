@@ -1,11 +1,9 @@
 * {
-  border: 1px solid black;
   font-family: "Outfit", sans-serif;
 }
 
 body {
   background-color: hsl(212, 45%, 89%);
-  overflow: hidden;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -13,15 +11,11 @@ body {
 
 #container {
   margin: auto;
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   align-content: center;
-  flex-flow: column wrap;
-  column-gap: 24px;
-  /* flex-direction: column;
-  flex-wrap: wrap; */
   width: min-content;
-  padding: 16px;
+  padding: 16px 16px 40px 16px
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
   border-radius: 20px;
   background-color: white;
@@ -31,20 +25,16 @@ body {
   border-radius: 10px;
   width: 288px;
   height: 288px;
-  border-radius: 10px;
-}
-
-#qr-code img {
 }
 
 .content {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   align-content: center;
   text-align: center;
   flex-flow: column wrap;
   font-size: 15px;
-  padding-bottom: 40px;
+  padding-top: 24px;
 }
 
 .title {
@@ -53,7 +43,6 @@ body {
 }
 
 .text {
-  width: 100%;
   font-weight: 400;
   color: hsl(216, 15%, 48%);
 }
