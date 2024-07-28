@@ -23,7 +23,7 @@ body {
   width: 100%;
 } */
 
-#qr-code {
+#qr-code img {
   width: 288px;
   height: 288px;
 }
