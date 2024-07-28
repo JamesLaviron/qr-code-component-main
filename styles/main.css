@@ -6,22 +6,22 @@
 body {
   background-color: hsl(212, 45%, 89%);
   overflow: hidden;
+  height: 100vh;
+  width: 100vw;
 }
 
 #container {
   width: auto;
   height: auto;
-  display: flex;
+  display: inline-flex;
   flex-flow: column wrap;
+  column-gap: 24px;
   /* flex-direction: column;
   flex-wrap: wrap; */
   padding: 16px;
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+  border-radius: 20px;
 }
-
-/* #container > div {
-  width: 100%;
-} */
 
 #qr-code img {
   width: 288px;
@@ -31,7 +31,6 @@ body {
 .content {
   text-align: center;
   font-size: 15px;
-  padding-top: 24px;
   padding-bottom: 40px;
 }
 
