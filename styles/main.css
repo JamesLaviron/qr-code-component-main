@@ -26,7 +26,8 @@ body {
   background-color: white;
 }
 
-#qr-code {
+#qr-code img {
+  border-radius: 10px;
   width: 288px;
   height: 288px;
   border-radius: 10px;
@@ -40,12 +41,12 @@ body {
   align-items: center;
   align-content: center;
   text-align: center;
+  flex-flow: column wrap;
   font-size: 15px;
   padding-bottom: 40px;
 }
 
 .title {
-  width: 100%;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
