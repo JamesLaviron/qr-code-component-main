@@ -21,7 +21,8 @@ body {
   background-color: white;
 }
 
-#qr-code img {
+img {
+  display: block;
   border-radius: 10px;
   width: 288px;
   height: 288px;
