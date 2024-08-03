@@ -47,26 +47,3 @@ body {
   letter-spacing: 0.2px;
   line-height: 140%;
 }
-
-#grid {
-  display: grid;
-  position: absolute;
-  column-gap: 25px;
-  width: 100vw;
-  height: 100vh;
-  padding: 0 32px;
-  justify-content: center;
-  grid-template-columns: repeat(12, 56px);
-}
-
-#grid > .column {
-  background: #b8b8b8;
-  opacity: 10%;
-}
-
-/* Tablet Layout: 2 columns */
-@media (max-width: 1050px) {
-  #grid {
-    grid-template-columns: repeat(4, 56px);
-  }
-}
