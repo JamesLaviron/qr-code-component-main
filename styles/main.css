@@ -36,7 +36,7 @@ main img {
   padding: 0 16px;
 }
 
-.title {
+h1 {
   color: hsl(218, 44%, 22%);
   line-height: 120%;
 }
@@ -49,7 +49,7 @@ main img {
   font-style: normal;
 }
 
-.subtitle {
+h2 {
   color: hsl(216, 15%, 48%);
   letter-spacing: 0.2px;
   line-height: 140%;
