@@ -8,13 +8,12 @@ body {
   width: 100vw;
   display: flex;
   margin: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
-  margin: auto;
-  display: inline-block;
-  align-items: center;
-  align-content: center;
+  /* height: fit-content; */
   width: min-content;
   padding: 16px 16px 40px 16px;
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
@@ -29,13 +28,8 @@ body {
 }
 
 .content {
-  display: flex;
-  align-items: center;
-  align-content: center;
+  display: block;
   text-align: center;
-  flex-flow: column wrap;
-  row-gap: 16px;
-  font-size: 15px;
   padding-top: 24px;
 }
 
@@ -47,6 +41,7 @@ body {
 }
 
 .text {
+  font-size: 15px;
   font-weight: 400;
   color: hsl(216, 15%, 48%);
   letter-spacing: 0.2px;
