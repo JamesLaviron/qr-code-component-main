@@ -36,7 +36,7 @@ main {
 /**
 * QRcode image
 */
-main #qrcode {
+main .preview {
   display: block;
   border-radius: 1rem; /* 10px */
   width: 28.8rem; /* 288px */
