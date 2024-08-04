@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 :root {
-  font-size: 62.5%; /* 10px */
   --white: #fff;
   --slate-300: hsl(212, 45%, 89%);
   --slate-500: hsl(216, 15%, 48%);
