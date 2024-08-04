@@ -1,64 +1,87 @@
 * {
-  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 10px */
+  --white: #fff;
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
 }
 
 body {
-  background-color: hsl(212, 45%, 89%);
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--white);
   height: 100vh;
   width: 100vw;
   display: flex;
-  margin: 0px;
   justify-content: center;
   align-items: center;
 }
 
 main {
   display: grid;
-  gap: 24px;
+  gap: 2.4rem; /* 24px */
   width: min-content;
-  padding: 16px 16px 40px 16px;
-  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
-  border-radius: 20px;
+  padding: 1.6rem 1.6rem 4rem 1.6rem; /* 16px 16px 40px 16px */
+  box-shadow: 0 2.5rem 2.5rem 0 rgba(0, 0, 0, 0.0477); /* 0 25px 25px 0 */
+  border-radius: 2rem; /* 20px */
   background-color: white;
 }
 
-main img {
+/**
+* QRcode image
+*/
+main #qrcode {
   display: block;
-  border-radius: 10px;
-  width: 288px;
-  height: 288px;
+  border-radius: 1rem; /* 10px */
+  width: 28.8rem; /* 288px */
+  height: 28.8rem; /* 288px */
 }
 
-.content {
+/**
+* QRcode section
+*/
+#qrcode-section {
   display: grid;
-  gap: 16px;
+  gap: 1.6rem; /* 16px */
   text-align: center;
-  padding: 0 16px;
+  padding: 0 1.6rem; /* 0 16px */
 }
 
-h2 {
-  color: hsl(218, 44%, 22%);
+/**
+* Title
+*/
+
+h1.title {
+  color: var(--slate-900);
   line-height: 120%;
 }
 
 .outfit-title {
-  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 2.2rem; /* 22px */
   font-style: normal;
 }
 
-p {
-  color: hsl(216, 15%, 48%);
-  letter-spacing: 0.2px;
+/**
+* Subtitle
+*/
+
+p.subtitle {
+  color: var(--slate-500);
+  letter-spacing: 0.02rem; /* 0.2px */
   line-height: 140%;
 }
 
 .outfit-subtitle {
-  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1.5rem; /* 15px */
   font-style: normal;
 }
